@@ -6,3 +6,8 @@ runs:
 branding:
   icon: 'archive'
   color: 'blue'
+inputs:
+  command:
+    description: 'The doctrine-migrations command you want to run'
+    required: true
+    default: 'migrations:status'
