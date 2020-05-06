@@ -1,0 +1,8 @@
+name: 'Run Doctrine Migrations'
+description: 'A Github action that exposes the doctrine-migrations executable '
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'archive'
+  color: 'blue'

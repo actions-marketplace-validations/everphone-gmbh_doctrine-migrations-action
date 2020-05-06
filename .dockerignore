@@ -1,0 +1,4 @@
+# Dockerfile does not need any local context at all,
+# this .dockerignore file speeds build time by ignoring everything
+*
+**/*
