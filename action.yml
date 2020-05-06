@@ -11,15 +11,3 @@ inputs:
     description: 'The doctrine-migrations command you want to run'
     required: true
     default: 'migrations:status'
-  db name:
-    description: 'The name of the DB you would like to migrate'
-    required: true
-  db user:
-    description: 'The username you will use to auth with the DB'
-    required: true
-  db pass:
-    description: 'The password you will use to auth with the DB'
-    required: true
-  db port:
-    description: 'The port to use when connecting to your DB'
-    required: true
